@@ -1,12 +1,10 @@
 'use strict';
 
-module.exports = require('angular')
-    .module('shared', [
-        require('./resource').name
+module.exports = angular.module('shared', [
     ]) //modulename + Kindelemente
 
     .config(['ResourceBuilderProvider', function (ResourceBuilderProvider) {
-            var resources = require('./resource/index.js');
+            var resources = require('./resource/index');
             ResourceBuilderProvider.addResources(resources);
         }
         ]

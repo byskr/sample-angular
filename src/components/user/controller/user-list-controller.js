@@ -7,4 +7,4 @@ function UserListController(userList) {
     vm.userList = userList;
 }
 
-module.exports = angular.controller(UserListController);
+module.exports = UserListController;
