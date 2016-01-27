@@ -7,9 +7,9 @@ module.exports = {
     },
     'app.user': {
         url: '/user',
-        view: {
-            main: {
-                templateUrl: './views/user-list.html'
+        views: {
+            'main@': {
+                templateUrl: './views/user/user-list.html'
             }
         }
     }
