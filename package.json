@@ -27,7 +27,7 @@
   "dependencies": {
     "angular": "^1.4.8",
     "angular-resource": "^1.4.8",
-    "angular-ui-router": "~0.2.0",
+    "angular-ui-router": "~0.4.3",
     "express": "^4.13.3",
     "fs-extra": "^0.26.4",
     "glob": "^6.0.4",
